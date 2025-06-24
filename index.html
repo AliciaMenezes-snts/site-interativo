@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- FONTE-->
+    <link rel="preconnect" href="https://fonts-googleapis.com">
+    <link rel="stylesheet" href=""> 
+    <link rel="stylesheet" href=""> 
+    <!-- FIM FONTE -->
+    <title>SITE INTERATIVO CURRICULO DA CIDADE</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <header>
+    <div class="interface"> <!--interface-->
+        <div class="logo"> <!--logo--> 
+            <a href="#">
+                <img src="imagens/logo-verde.png" alt="Logo do LOGO-CCI">
+            </a>
+        </div> <!--logo-->
+        <h2>1º ANO DO ENSINO FUNDAMENTAL</h2>    
+
+</header> <!--FIM HEADER-->
+
+<style>
+    .branco{
+        background-color: rgb(255, 255, 255);
+    }
+    .verde-agua{
+        background-color: rgb(209, 245, 239);
+    }
+    .branco{
+        background-color: rgb(255, 255, 255);
+    }
+    
+    
+    table {
+        margin: 40px auto;
+        width: 90%;
+        border-collapse: collapse;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 16px;
+    }
+
+    th, td{
+        padding: 12px 16px;
+        text-align: left;
+        vertical-align: top;
+        border: 1px solid #000000;
+    }
+
+    body{
+        background-color: #31b2a4
+    }
+
+    .link-botao {
+      display: inline-block;
+      padding: 10px 20px;
+      background-color:rgb(209, 245, 239);
+      color: #000;
+      text-decoration: none;
+      border-radius: 8px;
+      font-weight: bold;
+      transition: all 0.3s ease;
+  }
+
+  .link-botao:hover {
+      background-color: rgb(209, 245, 239);
+      transform: scale(1.1); 
+      cursor: pointer;
+      box-shadow: 0px 0px 8px #65a798 ;
+  }
+
+h2{
+    margin: 40px auto;
+    text-align: center;
+    padding: 10px 20px;
+      background-color:rgb(209, 245, 239);
+      color: #000;
+      text-decoration: none;
+      border-radius: 8px;
+      font-weight: bold;
+    
+      
+}
+
+.botao-container{
+    display: flex;
+  gap: 20px; /* espaçamento entre os botões */
+  flex-wrap: wrap; /* permite quebrar linha em telas pequenas */
+}
+    .btn{
+        margin: 5px 5px 10px;
+        padding: 6px 15px;
+        border-radius: 8px;
+        font-weight: bold;
+        text-decoration: none;
+        color: white;
+        transition: 0.3s ease;
+        gap: 5px;
+
+    }
+
+    .btn:hover{
+        transform: scale(1.05);
+        box-shadow: 0 0 5px;
+
+    }
+
+    .btn.azul{
+        background-color: blue;
+    }
+
+    .btn.vermelho{
+        background-color: red;
+    }
+
+    .btn.verde{
+        background-color: green;
+    }
+
+
+</style>
+
+   <table border="2"><!--TABELA INICIO-->
+    <colgroup>
+        <col class="branco">
+        <col class="verde-agua">
+        <col class="branco">
+        <col class="branco">
+  </colgroup>
+
+    <tr>
+        <th>Eixos</th> <!--titulo-->
+        <th>Objetos de Conhecimento</th> <!--titulo-->
+        <th>Objetivos de Aprendizagem e Desenvolvimento</th> <!--titulo-->
+        <th>Objetivos de Desenvolvimento e Sustentável</th> <!--titulo-->
+    </tr>
+    <tr>
+        <th rowspan="5">
+            <a href="eixo.html/eixo.html" class="link-botao">PROGRAMAÇÃO</a>
+        </th> <!--eixo-->
+        <td>Dispositivos de hardware</td>
+        <td>(EF01TPA01) Identificar e utilizar os dispositivos de hardware disponíveis e seus periféricos (teclado, mouse, pen drive, computador etc.).</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Sistema computacional(software)</td>
+        <td>(EF01TPA02) Identificar ícones de diferentes programas</td>
+        <td> 
+         </td>
+    </tr>
+    <tr> 
+        <td>Capacidade analítica(abstração)</td>
+        <td>(EF01TPA03) Utilizar a lógica em jogos e brincadeiras</td>
+        <td>
+            <div class="botao-container"> 
+            <a href="relação-bncc/bncc.html" class="btn azul">RELAÇÃO COM BNCC</a>
+            <a href="saiba-mais/saiba-mais.html" class="btn vermelho">SAIBA MAIS</a>
+            <a href="com-a-palavra/com-a-palavra.html" class="btn verde">COM A PALAVRA</a>
+            </div>
+        </td>
+        
+    </tr>
+     <tr> 
+        <td>Linguagem de programação (bloco, comando)</td>
+        <td>(EF01TPA04) Conhecer comandos simples nas atividades lúdicas e jogos.</td>
+        <td></td>
+        
+    </tr>
+     <tr> 
+        <td>Narrativas digitais</td>
+        <td>(EF01TPA05) Desenvolver processos e produções a partir de imagens e sons.</td>
+        <td></td>
+        
+    </tr>
+</table>
+
+<img src="imagens/Assistente-ia.png" alt="Assistente-ia">
+
+</body>
+</html>
